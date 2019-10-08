@@ -1,0 +1,220 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2019-05-29 09:15+0700\n"
+"PO-Revision-Date: 2019-05-29 09:17+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.2\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: esc_html_e;esc_html__;__;_e;esc_attr_x\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:19
+msgid "Oops!"
+msgstr ""
+
+#: 404.php:21
+msgid "404 Not Found"
+msgstr ""
+
+#: 404.php:24
+msgid "Sorry, an error has occured, Requested page not found!"
+msgstr ""
+
+#: 404.php:28
+msgid "Take Me Home"
+msgstr ""
+
+#: assets/bootstrap-navwalker.php:331
+msgid "Add a menu"
+msgstr ""
+
+#: assets/customizer.php:16
+msgid "Heading Color"
+msgstr ""
+
+#: assets/customizer.php:34
+msgid "Heading:hover Color"
+msgstr ""
+
+#: assets/customizer.php:52
+msgid "Text Color"
+msgstr ""
+
+#: assets/customizer.php:70
+msgid "Link Color"
+msgstr ""
+
+#: assets/customizer.php:88
+msgid "Link:hover Color"
+msgstr ""
+
+#: assets/customizer.php:106
+msgid "Icon Color"
+msgstr ""
+
+#: assets/customizer.php:124
+msgid "Footer Background Color"
+msgstr ""
+
+#: assets/customizer.php:142
+msgid "Footer Color"
+msgstr ""
+
+#: assets/display-comments.php:17
+msgid "Pingback:"
+msgstr ""
+
+#: assets/display-comments.php:17 assets/display-comments.php:56
+msgid "(Edit)"
+msgstr ""
+
+#: assets/display-comments.php:59
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: assets/template-functions.php:4
+msgid "READ MORE"
+msgstr ""
+
+#: assets/template-functions.php:79
+msgid "It appears the bootstrap-navwalker.php file may be missing."
+msgstr ""
+
+#: comments.php:38 comments.php:64
+msgid ""
+"<i class=\"fa fa-caret-left left\" aria-hidden=\"true\"></i> Older Comments"
+msgstr ""
+
+#: comments.php:40 comments.php:66
+msgid ""
+"Newer Comments <i class=\"fa fa-caret-right right\" aria-hidden=\"true\"></i>"
+msgstr ""
+
+#: comments.php:78
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:89
+msgid "Your name"
+msgstr ""
+
+#: comments.php:96
+msgid "Your email"
+msgstr ""
+
+#: comments.php:134
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: footer.php:26
+msgid ""
+"All rights reserved. Powered by <a href=\"https://www.wordpress.org\" rel="
+"\"nofollow\" target=\"_blank\">WordPress.</a>"
+msgstr ""
+
+#: functions.php:74
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:75
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:104
+msgid "..."
+msgstr ""
+
+#: functions.php:113
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:115
+msgid "This is the blog sidebar. You can add your widgets here"
+msgstr ""
+
+#: functions.php:125
+msgid "Footer Widget 1"
+msgstr ""
+
+#: functions.php:127
+msgid "First Footer Area"
+msgstr ""
+
+#: functions.php:137
+msgid "Footer Widget 2"
+msgstr ""
+
+#: functions.php:139
+msgid "Second Footer Widget Area"
+msgstr ""
+
+#: functions.php:149
+msgid "Footer Widget 3"
+msgstr ""
+
+#: functions.php:151
+msgid "Third Footer Widget Area"
+msgstr ""
+
+#: functions.php:161
+msgid "Footer Widget 4"
+msgstr ""
+
+#: functions.php:163
+msgid "Fourth Footer Widget Area"
+msgstr ""
+
+#: functions.php:183
+msgid "Search here"
+msgstr ""
+
+#: search.php:20
+msgid "Search Result For : "
+msgstr ""
+
+#: template-parts/content-front-page.php:14 template-parts/content-page.php:37
+#: template-parts/content-single.php:36
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-none.php:3
+msgid "There is nothing yet to displayed!"
+msgstr ""
+
+#: template-parts/content-none.php:7
+msgid ""
+"Sorry, nothing matched your search. Please try again with some different "
+"keywords."
+msgstr ""
+
+#: template-parts/content-none.php:11
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:24
+msgid "Written by "
+msgstr ""
+
+#: template-parts/content-page.php:24 template-parts/content-single.php:20
+msgid " on "
+msgstr ""
+
+#: template-parts/content-single.php:20
+msgid "Written By "
+msgstr ""
+
+#: template-parts/content.php:11
+msgid "WRITTEN BY "
+msgstr ""

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Black+Ops+One&display=swap');
+
+/* main column width */
+.wp-block {
+    max-width: 1110px;
+}
+
+/* width of "wide" blocks */
+.wp-block[data-align="wide"] {
+    max-width: 1300px;
+}
+
+/* width of "full-wide" blocks */
+.wp-block[data-align="full"] {
+    max-width: none;
+}
+
+/* blockquote style, looks like the front end */
+.wp-block-quote,
+blockquote{
+    padding: 20px;
+    border-left: 5px solid #f9b701;
+}
+.wp-block-quote cite:before,
+blockquote cite:before{
+    content: "\2014 \00A0";
+}
+
+/* table style, looks like the front end */
+table {
+    border-collapse: collapse;
+    width: 90%;
+}
+
+table td,
+table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table thead th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #f9b701;
+    color: white;
+}
+
+/* heading size, same like the front end */
+.editor-post-title,
+.editor-post-title label,
+.editor-post-title__input,
+.wp-block-heading h1,
+.wp-block-heading h2,
+.wp-block-heading h3,
+.wp-block-heading h4,
+.wp-block-heading h5,
+.wp-block-heading h6 {
+    margin-bottom: .5rem;
+    line-height: 1.2;
+    font-weight: 300;
+    font-family: 'Black Ops One', cursive !important; /*Overide all font-family for heading and title*/
+}
+
+.wp-block-heading h1 {
+    font-size: 2.5rem;
+}
+
+.wp-block-heading h2 {
+    font-size: 2rem;
+}
+
+.wp-block-heading h3 {
+    font-size: 1.75rem;
+}
+
+.wp-block-heading h4 {
+    font-size: 1.5rem;
+}
+
+.wp-block-heading h5 {
+    font-size: 1.25rem;
+}
+
+.wp-block-heading h6{
+    font-size: 1rem;
+}
+
+.block-editor-rich-text__editable a{
+    color: #f9b701 !important;
+}

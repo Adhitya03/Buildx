@@ -1,0 +1,679 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Black+Ops+One&display=swap');
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute !important;
+    width: 1px;
+    word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+    background-color: #eee;
+    clip: auto !important;
+    clip-path: none;
+    color: #444;
+    display: block;
+    font-size: 1em;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000;
+    /* Above WP toolbar. */
+}
+
+.sticky, .gallery-caption, .bypostauthor {
+    display: block;
+}
+
+/* ================================================= GENERAL =================================================*/
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.site-name,
+.card-header{
+    font-weight: 300;
+    font-family: 'Black Ops One', cursive;
+}
+
+.moretag:hover,
+a:hover{
+    text-decoration: none;
+}
+
+.wp-block-cover a:hover, #sidebar .btn{
+    color: #fff;
+}
+
+#post-feed .entry-header img{
+    margin-bottom: 10px;
+}
+
+#post-header,
+.page-title,
+#single-post article,
+#page{
+    margin-bottom: 40px;
+}
+
+#page article{
+    margin-right: 0 !important; /* Overide .row margin-right : -15px*/
+    margin-left: 0 !important; /* Overide .row margin-left : -15px*/
+    padding: 0 !important; /* Overide .row padding-right : -15px and padding-left : -15px*/
+}
+
+#single-post #post-content .post-meta{
+    margin-top: 30px;
+}
+
+#post-feed .entry-header img,
+.post-featured-image img{
+    width: 100%;
+    height: auto;
+}
+
+.no-padding{
+    margin: 0;
+    padding: 0;
+}
+
+.wp-block-quote,
+blockquote{
+    padding: 20px;
+    border-left: 5px solid #f9b701;
+}
+
+.wp-block-quote cite:before,
+blockquote cite:before{
+    content: "\2014 \00A0";
+}
+
+.wp-block-image figcaption{
+    margin-top: 0;
+}
+
+.archive span{
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+}
+
+table td,
+table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table tr:nth-child(even){backmenu-areaground-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table thead th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #f9b701;
+    color: white;
+}
+
+#single-post .post-title{
+    width: 100%;
+}
+
+#post-feed .post-title{
+    max-width: 100%;
+}
+
+#single-post .post-title,#post-feed .post-title{
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+
+/* ================================================= SITE BRAND =================================================*/
+
+.site-name{
+    font-size: 2.3em;
+    margin: 0;
+    padding: 0;
+}
+
+.custom-logo-link{
+    float: left;
+    margin-right:10px;
+}
+
+.site-brand {
+    display: inline-block;
+}
+
+/* ================================================= NAVBAR =================================================*/
+.main-menu .navbar{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul{
+    margin-left: auto !important;
+}
+
+.main-menu ul li{
+    display: inline;
+    vertical-align: middle;
+}
+
+.main-menu ul li a{
+    text-decoration: none;
+}
+
+.logo{
+    margin: 20px 0;
+}
+
+/* ================================================= BLOG =================================================*/
+#post-feed{
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#post-feed .entry-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#post-feed .post-item h2{
+    font-size: 1.625em;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#post-feed .post-item .post-title{
+    position: absolute;
+}
+
+#post-feed .post-item .post-title{
+    background-color: rgba(255,255,255,0.9);
+    padding: 10% 5%;
+    text-align: center;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.post-item .post-author{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.post-item .post-author a{
+    color: #212529;
+}
+
+.post-item .post-author a:hover{
+    color: #f9b701;
+}
+
+.post-meta{
+    margin-bottom: 10px;
+}
+
+#sidebar .search span{
+    vertical-align: text-top;
+}
+
+.post-meta i,
+.search i{
+    margin: 0 10px;
+}
+
+.meta-dots{
+    font-size: 1.875em;
+    vertical-align: middle !important; /* overite vertical-align of .post-meta span */
+}
+
+.post-line{
+    background: #EEE;
+    position: relative;
+    overflow: visible;
+    z-index: 100;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.post-line:before{
+    z-index: 10000;
+    font-family: "Font Awesome 5 Free";
+    content: "\f015";
+    position: absolute;
+    top: -23px;
+    left: 50%;
+    right: 50%;
+    width: 40px;
+    height: 30px;
+    margin-left: -20px;
+    font-size: 1.875em;
+    font-weight: 900;
+}
+
+.post-tags{
+    display: block;
+    margin-top: 30px;
+}
+
+.moretag{
+    float: right;
+    display: block;
+    padding: 5px;
+    font-size: 0.875em;
+    letter-spacing: 1px;
+    margin-top: -5px;
+}
+
+#post-feed .entry-header hr{
+    width: 150px;
+    border: 1px solid #d1d1d1;
+}
+
+/* ================================================= Posts =================================================*/
+
+#single-post .post-title {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 80px;
+}
+
+#single-post #post-header{
+    margin-right: -10px;
+    margin-left: -30px;
+}
+
+#single-post .post-title h1{
+    font-size: 32px;
+    line-height: 45px !important; /*overide bootstrap heading line-height*/
+    font-weight: 400;
+    padding: 40px 0 20px 0;
+}
+
+#single-post .post-title .post-category a{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 21px;
+    text-align: center !important;
+    text-transform: uppercase;
+    color: #26272d;
+}
+
+#single-post .post-title h1,
+#single-post .post-title .post-category,
+#single-post .post-title .post-meta{
+    text-align: left !important;
+}
+
+/* ================================================= PAGES =================================================*/
+
+#page .featured-image-page{
+    padding: 140px 30px;
+}
+
+
+
+/* ================================================= SEARCH =================================================*/
+.search-form .input-group {
+    position: relative;
+}
+
+.search-form .input-group-append{
+    position: absolute;
+    right: 0;
+    z-index: 99;
+    opacity: 0.5;
+}
+
+.search-form .form-control:focus .input-group-append{
+    opacity: 1;
+}
+
+.search-form .form-control{
+    border-radius: 10px !important; /*overide bootstrap .input-group > .form-control:not(:last-child){ border-top-right-radius: 0; border-bottom-right-radius: 0;}*/
+}
+
+.search-form .form-control,
+.search-form .btn{
+    font-size: inherit;
+}
+.search-form .form-control:focus{
+    color: #495057;
+    background-color: #fff;
+    border-color: #f9b701;
+    outline: 0;
+    box-shadow: none;
+}
+
+/* ================================================= PAGINATION =================================================*/
+.search .pagination{
+    display: block;
+    text-align: center;
+}
+
+.page-numbers {
+    padding: 5px 10px;
+    border: 1px solid;
+}
+
+.page-numbers.current{
+    vertical-align: unset;
+}
+
+/* ================================================= SIDEBAR =================================================*/
+#sidebar, #sidebar a {
+    font-weight: 500;
+}
+
+#sidebar .widget-wrapper {
+    margin-bottom: 40px;
+}
+
+#sidebar .widget-title {
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+#sidebar ul {
+    padding: 0;
+}
+
+#sidebar ul li {
+    list-style: none;
+    padding: 10px 0;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+#sidebar ul li .post-date {
+    display: block;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+/* ================================================= FOOTER =================================================*/
+footer,
+footer p,
+.footer-menu ul li a{
+    font-size: 12px;
+}
+
+.footer-menu ul li a:hover{
+    color: #f9b701;
+}
+
+footer .copyright{
+    padding: 8px;
+}
+
+#footer-widgets{
+    padding: 40px;
+}
+
+#footer-copyright{
+    background-color: #4c5b6e;
+    padding: 10px;
+}
+
+footer .widget-wrapper .widget-title{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+footer .widget-wrapper ul{
+    padding: 0;
+}
+
+footer .widget-wrapper ul li{
+    list-style-type: none;
+    border-bottom: 1px #2f3847 solid;
+    padding: 10px 0;
+}
+
+footer .widget-wrapper ul li:before{
+    content: "» ";
+    font-size: 14px;
+}
+
+footer .widget-wrapper ul li a{
+    display: inline-block;
+}
+
+footer .widget-wrapper ul li span{
+    display: block;
+}
+
+.footer-menu ul{
+    margin: 0;
+}
+
+.footer-menu ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+/*************** GUTENBERG ***************/
+.alignfull {
+    width: 100vw;
+    margin-left: calc( 50% - 50vw );
+    max-width: none;
+}
+
+.wp-block-image.alignfull img, .wp-block-image.alignwide img {
+    width: 100%;
+}
+
+@media only screen and (min-width: 320px)  {
+
+    .menu-area .navbar .container{
+        justify-content: flex-start;
+    }
+
+    #post-feed .post-item h2{
+        font-size: 18px;
+    }
+
+    #post-feed .post-item .post-title{
+        padding: 3%;
+    }
+
+    .post-item .post-author {
+        letter-spacing: 2px;
+    }
+
+    #single-post .post-title h1 {
+        padding: 0;
+    }
+
+    #single-post .post-title{
+        padding-left: unset;
+    }
+
+    #single-post #post-header {
+        margin-right: inherit;
+        margin-left: inherit;
+    }
+
+    body p{
+        font-size: 0.8em;
+    }
+
+    #single-post .post-title .post-meta{
+        font-size: 0.8em;
+    }
+
+    #page .featured-image-page {
+        padding: 50px 30px;
+    }
+
+    .site-description {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 768px)  {
+
+    body p{
+        font-size: 1em;
+    }
+
+    .menu-area .navbar .container{
+        justify-content: space-between;
+    }
+
+    #post-feed .post-item h2{
+        font-size: 26px;
+    }
+
+    #post-feed .post-item .post-title{
+        padding: 10% 5%;
+    }
+
+    .post-item .post-author {
+        letter-spacing: 5px;
+    }
+
+    #single-post .post-title .post-meta{
+        font-size: 1em;
+    }
+
+    #page .featured-image-page{
+        padding: 140px 30px;
+    }
+
+    .site-description {
+        font-size: inherit;
+    }
+
+}
+
+@media only screen and (min-width: 992px)  {
+
+    #single-post .post-title h1 {
+        padding: 40px 0 20px 0;
+    }
+
+    #single-post .post-title{
+        padding-left: 80px;
+    }
+
+    #single-post #post-header {
+        margin-right: -10px;
+        margin-left: -30px;
+    }
+
+}
+
+@media only screen and (min-width: 1140px) {
+
+    .alignwide {
+        width: 85vw;
+        margin-left: calc( 40% - 70vw / 2 );
+        max-width: none;
+    }
+}
